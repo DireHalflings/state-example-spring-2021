@@ -1,0 +1,27 @@
+.avatar {
+  display: flex;
+  margin: 12px;
+  border-bottom: 1px solid rgb(178, 195, 195);
+}
+
+.avatar-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.avatar-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avatar-text__user-name {
+  color: #817fac;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.avatar-text__time-stamp {
+  color: rgb(71, 104, 104);
+}

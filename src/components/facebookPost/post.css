@@ -1,0 +1,7 @@
+.post-container {
+  width: 40%;
+  border: 1px solid rgb(165, 210, 221);
+  border-radius: 4px;
+  padding: 2px;
+  margin: 4px;
+}

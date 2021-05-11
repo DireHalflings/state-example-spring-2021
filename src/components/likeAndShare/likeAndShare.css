@@ -1,0 +1,14 @@
+.like-and-share-container {
+  display: flex;
+  justify-content: center;
+  background-color: #edeff4;
+  margin: 8px 0;
+}
+
+.like-and-share {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  padding: 4px 0;
+  color: rgb(44, 131, 202);
+}

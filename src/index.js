@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  //JSX -- HTML-like
   <React.StrictMode>
     <App />
   </React.StrictMode>,

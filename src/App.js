@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { data } from './resources/tweetData';
+import Post from './components/facebookPost/post';
+
+import Counter from './components/counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Counter count={ 0 } />
+      {/* {
+        data.map((tweet, i) => {
+          return <Post 
+            key={ tweet.username + i }
+            avatarImage={ tweet.avatar } 
+            text={ tweet.text } 
+            name={ tweet.username } 
+            time={ tweet.timeStamp.toLocaleDateString() }
+            commentCount={ tweet.comments.length }
+            likes={ tweet.likes }
+          />
+        })
+      } */}
     </div>
   );
 }
